@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="navbar">
+    <a href="#home">HOME</a>
+    <a href="#band">BAND</a>
+    <a href="#tour">TOUR</a>
+    <a href="#contact">CONTACT</a>
+    <div class="dropdown">
+      <button class="dropbtn">MORE
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Merchandise</a>
+        <a href="#">Extras</a>
+        <a href="#">Media</a>
+      </div>
+    </div>
+  </div>
+  <div class="w3-content w3-section" style="max-width:100%">
+    <div class="image wrap">
+      <img class="mySlides" src="https://www.w3schools.com/w3images/la.jpg" style="width:100%" />
+      <div class="text-block1">
+        <h1>Los Angels</h1>
+        <p>We had the best time playing at Venice Beach</p>
+      </div>
+    </div>
+    <div class="image wrap">
+      <img class="mySlides" src="https://www.w3schools.com/w3images/ny.jpg" style="width:100%" />
+      <div class="bottom">
+        <div class="text-block2">
+          <h2>New York</h2>
+          <p>The atmosphere in New York is lorem ipsum</p>
+        </div>
+      </div>
+    </div>
+    <div class="image wrap">
+      <img class="mySlides" src="https://www.w3schools.com/w3images/chicago.jpg" style="width:100%" />
+      <div class="text-block3">
+        <h3>Chicago</h3>
+        <p>Thank you, Chicago - A night we won't forget</p>
+      </div>
+    </div>
+  </div>
+  <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) { myIndex = 1 }
+      x[myIndex - 1].style.display = "block";
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+  </script>
+  </br>
+  </br>
+  <h1 align="center"><b>T H E B A N D </b></h1>
+  <p align="center">We love music</p>
+  <p align="center">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod</br>
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</br>
+    laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum</br>
+    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+    mollit</br>
+    anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut </br>
+    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+  <a align="center">
+    <h3>Name</h3>
+
+    <div class="flex-container">
+      <div>
+        <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="W3Schools.com"
+          style="width:134px;height:222px;">
+      </div>
+      <div>
+        <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="W3Schools.com"
+          style="width:134px;height:222px;">
+      </div>
+      <div>
+        <img src="https://www.w3schools.com/w3images/bandmember.jpg" alt="W3Schools.com"
+          style="width:134px;height:222px;">
+      </div>
+    </div>
+    </br>
+    </br>
+    <div>
+      <div id="example1">
+        <h2 style="color:white"> <i>T O U R D A T E S </i></h2>
+        <h4 style="font-size:100% ;color:white">Remember to book your tickets!</h4>
+        <div>
+          <div class="form" align="center">
+            <div>
+              <form action="/action_page.php">
+                <div>
+                  <p align="left">september <mark> sold out </mark></p>
+                  <hr>
+                </div>
+                <div>
+                  <p align="left">October <mark>Sold out </mark></p>
+                  <hr>
+                </div>
+                <div>
+                  <p align="left">November</p>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="flex-container1">
+            <div>
+              <img src="https://www.w3schools.com/w3images/newyork.jpg" style="width:100%;">
+              <div>
+                <h4>Newyork</h4>
+                <p>Fri 27 Nov 2016</p>
+                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <input type="text" value="Buy Tickets" size="6">
+              </div>
+            </div>
+            <div>
+              <img src="https://www.w3schools.com/w3images/paris.jpg" alt="W3Schools.com" style="width:100%;">
+              <div>
+                <h4>Paris</h4>
+                <p>Sat 28 Nov 2016</p>
+                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo</p>
+                <input type="text" value="Buy Tickets" size="6">
+              </div>
+            </div>
+            <div>
+              <img src="https://www.w3schools.com/w3images/sanfran.jpg" alt="W3Schools.com" style="width:100%;">
+              <div>
+                <h4>San Francisco </h4>
+                <p>Sun 29 Nov 2016</p>
+                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <input type="text" value="Buy Tickets" size="6">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h4> CONTACT </h4>
+      <h5 style="font-size:100% ;color:black">Fan? Drop a note!</h5>
+    </div>
+    <div class="flex-container2">
+      <div>
+        <p> Chicago, US </p>
+        <p>Phone: +00 151515 </p>
+        <p>Email: mail@mail.com</p>
+      </div>
+      <div>
+        <form action="">
+          <input type="name" value="Name" style="width:200px; height:30px;">
+          <input type="Email" value="Email" style="width:200px; height:30px;">
+          </br>
+          </br>
+          <input type="message" value="Message" style="width:400px; height:30px;">
+          <br>
+
+          <input type="send" value="Send" size="5">
+        </form>
+      </div>
+    </div>
+    <div>
+      <img src="https://www.w3schools.com/w3images/map.jpg" style="width:100%;">
+    </div>
+    <div>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-pinterest"></a>
+      <a href="#" class="fa fa-snapchat-ghost"></a>
+    </div>
+    <h4>Powered by <u>w3.css</u></h4>
+</body>
+
+</html>

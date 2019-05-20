@@ -1,0 +1,212 @@
+ {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+overflow: hidden;
+background-color: #333;
+}
+
+.navbar a {
+float: left;
+font-size: 16px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+.dropdown .dropbtn {
+font-size: 16px;  
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color: rgb(170, 172, 172);
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.center {
+margin:auto;
+width:50%;
+height:1px;
+}
+#example1 {
+background-color:black;
+padding: 10%;
+}
+.container {
+position: relative;
+font-family: Arial;
+}
+
+.text-block1 {
+position: absolute;
+bottom: 100px;
+right: 100px;
+background-color: black;
+color: white;
+padding-left: 20px;
+padding-right: 20px;
+display:left;
+}
+.text-block2 {
+position: absolute;
+bottom: 50px;
+right: 50px;
+background-color: black;
+color: white;
+padding-left: 10px;
+padding-right: 10px;
+display:left;
+
+}
+.text-block3 {
+position: absolute;
+bottom: 30px;
+right: 30px;
+background-color: black;
+color: white;
+padding-left: 20px;
+padding-right: 20px;
+display:left;
+}
+.flex-container {
+display: flex;
+justify-content:space-around;
+}
+.flex-container > div {
+background-color: #f1f1f1;
+width: 100px;
+margin: 10px;
+line-height: 10px;
+}
+
+.form {
+background-color:black;
+width:100%;
+padding: 10px;
+margin:5px;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.form > div {
+background-color:#e9e3e3;
+margin:5px;
+padding: 10px;
+width:60%;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-size:20px;
+}
+
+
+.flex-container1 {
+display: flex;
+background-color: black;
+justify-content: center;
+align-items: center;
+text-align: left;
+align-self:center;
+}
+.flex-container1 > div {
+background-color: #f1f1f1;
+margin:10px;
+padding: 8px;
+justify-content: center;
+align-items: center;
+text-align: left;
+align-self:center;
+height:350px;
+width:200px;
+font-size:15px;
+}
+input[type="text"]
+{
+background-color:black;
+border: none;
+color: white;
+padding: 16px 32px;
+text-decoration: none;
+margin: 4px 2px;
+cursor: pointer;
+}
+.flex-container2 {
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+align-self:center;
+background-color:white;
+}
+.flex-container2 > div {
+background-color: white;
+margin:50px;
+padding: 20px;
+justify-content: center;
+align-items: center;
+text-align: center;
+align-self:center;
+/* height:250px;
+width:100px; */
+font-size:20px;
+}
+input[type=send]
+{
+background-color:black;
+  border: none;
+color: white;
+padding: 16px 32px;
+text-decoration: none;
+margin: 4px 2px;
+align:right;
+cursor: pointer;
+  }
+          .fa {
+            padding: 10px;
+            font-size: 30px;
+            width: 20px;
+            align-content: center;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            background:gray;
+            color:white;
+          }
