@@ -415,13 +415,34 @@ flex-flow:column;
   background-color: black;
 }
 .background-image3{
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtKI6zF-8bFXapldLYUUnI0WTA2FYlGdombXXTMgOs-uftfpRq");
+  background: url("https://www.fonewalls.com/wp-content/uploads/2160x1920-Background-HD-Wallpaper-262.jpg");
   background-size: 100%;
-  width:100%;
+  width:30%;
   background-repeat: no-repeat;
 color: white;
 height:200px;
 display: flex;
 justify-content:center;
 flex-flow:column;
+margin:30px;
+padding: 30px;
+}
+.img3{
+  overflow: hidden;
+  height:80px;
+  width:300px;
+  padding: 20px;
+  margin: 10px;
+}
+.flex-content9{
+  background-color: pink;
+  width:700px;
+  height: 200px;
+}
+.provide{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: 50px;
+  margin: 50px;
+  color: white;
 }
