@@ -119,6 +119,8 @@ width: 50%;
 background-color:whitesmoke;
 width: 40%;
 padding: 20px;
+font-size: 15px;
+color:red;
 }
 .flex-image {
 width:100%;
@@ -407,8 +409,8 @@ flex-flow:column;
     padding: 0px;
   }
 .page5{
-  height: 400px;
-  background-color: aqua;
+  height: 330px;
+  background-color: black;
 }
 .flex-container8{
   display: flex;
@@ -435,14 +437,141 @@ padding: 30px;
   margin: 10px;
 }
 .flex-content9{
-  background-color: pink;
   width:700px;
   height: 200px;
 }
 .provide{
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
-  padding: 50px;
-  margin: 50px;
+  padding: 60px;
+  margin: 40px;
   color: white;
+}
+input[type=text] {
+  width: 40%;
+  padding: 20px;
+  margin: 8px;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  color:white;
+  background-color: black;
+}
+.page6{
+  height:600px;
+  background-color:black;
+}
+.flex-container9{
+  display: flex;
+}
+.flex-content10{
+width:60%;
+}
+.links{
+  display: flex;
+  justify-content: center;
+
+}
+.links a{
+  text-decoration: none;
+  color: white;
+}
+.fhome{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: 30px;
+  color: white;
+}
+.fabout{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: 30px;
+  color: white;
+}
+.fsolutions{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: 30px;
+  color: white;
+}
+.fstudiomatrix{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: 30px;
+  color: white;
+}
+.fcareers{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: 30px;
+  color: white;
+}
+.wehave{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: gray;
+  display: flex;
+  margin:20px;
+  padding: 30px;
+  width:50%;
+}
+.social{
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  width: 30%;
+  margin:30px;
+  padding: 20px;
+}
+.social1{
+  height:40px;
+  width:40px;
+}
+.phone{
+  margin: 35px;
+  color:gray;
+}
+.mail{
+  color:gray;
+  margin: 35px;
+}
+.flex-content11{
+  width: 40%;
+display: flex;
+flex-flow:column wrap-reverse;
+}
+.flogo {
+  height:100px;
+  width:100px;
+  margin:50px;
+  padding: 50px;
+}
+.brownbutton{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  color:white;
+  margin: 30px;
+  padding:10px;
+  text-align:right;
+}
+.address{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color:gray;
+  margin: 30px;
+  padding: 10px;
+  text-align: right;
+}
+.page7{
+  background-color: black;
+  height:80px;
+}
+.rights{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: gray;
+  text-align: center;
+}
+.flex-container10{
+background-color:rgba(15, 7, 7, 0.055);
 }
